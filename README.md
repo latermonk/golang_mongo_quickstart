@@ -2,7 +2,7 @@
 
 
 
-```bigquery
-mongo --db test --collection user --file C:\Users\zhang_zk\Desktop\new.json
-```
 
+```shell
+db.things.stats();
+```
