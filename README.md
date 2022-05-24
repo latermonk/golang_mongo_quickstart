@@ -6,3 +6,6 @@
 ```shell
 db.things.stats();
 ```
+
+
+##  Document
