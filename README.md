@@ -1,7 +1,30 @@
 # golang mongodb start 
 
 
-#  import  dataset
+
+
+#  Document
+
+
+## Install
+
+https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
+
+
+
+##  create a user for mongodb
+
+```shell
+db.createUser(
+  {
+    user: "myUserAdmin",
+    pwd: "abc123",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+  }
+)
+```
+
+##  import  dataset
 ```shell
 https://www.mongodb.com/docs/atlas/sample-data/sample-mflix/#std-label-sample-mflix
 ```
@@ -21,24 +44,15 @@ db.movies.find( {"title" : "The Arrival of a Train"} );
 
 ```
 
-#  Document
 
-##  create a user for mongodb
-```shell
-db.createUser(
-  {
-    user: "myUserAdmin",
-    pwd: "abc123",
-    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
-  }
-)
-```
+
+## golang api
+https://www.mongodb.com/docs/drivers/go/current/quick-start/
 
 
 
 
-
-----
+##  Others
 
 ```shell
 db.things.stats();
