@@ -25,6 +25,9 @@ db.createUser(
 ```
 
 ##  import  dataset
+
+###  json
+
 ```shell
 https://www.mongodb.com/docs/atlas/sample-data/sample-mflix/#std-label-sample-mflix
 ```
@@ -44,6 +47,15 @@ db.movies.find( {"title" : "The Arrival of a Train"} );
 
 ```
 
+
+###  import bson file
+```shell
+mongorestore -d sample_mflix   --dir  ./sample_mflix
+
+sample_mflix dbname
+./sample_mflix dir_name
+
+```
 
 
 ## golang api

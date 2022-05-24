@@ -34,7 +34,8 @@ func main() {
 	}()
 
 	coll := client.Database("sample_mflix").Collection("movies")
-	title := "The Arrival of a Train"
+	//title := "The Arrival of a Train"
+	title := "Back to the Future"
 
 	var result bson.M
 	err = coll.FindOne(context.TODO(), bson.D{{"title", title}}).Decode(&result)
