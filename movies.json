@@ -1,0 +1,56 @@
+{
+  "_id": {
+    "$oid": "573a1390f29313caabcd413b"
+  },
+  "title": "The Arrival of a Train",
+  "year": {
+    "$numberInt": "1896"
+  },
+  "runtime": {
+    "$numberInt": "1"
+  },
+  "released": {
+    "$date": {
+      "$numberLong": "-2335219200000"
+    }
+  },
+  "imdb": {
+    "rating": {
+      "$numberDouble": "7.3"
+    },
+    "votes": {
+      "$numberInt": "5043"
+    },
+    "id": {
+      "$numberInt": "12"
+    }
+  },
+  "cast": [
+    "Madeleine Koehler"
+  ],
+  "countries": [
+    "France"
+  ],
+  "genres": [
+    "Documentary",
+    "Short"
+  ],
+  "tomatoes": {
+    "viewer": {
+      "rating": {
+        "$numberDouble": "3.7"
+      },
+      "numReviews": {
+        "$numberInt": "59"
+      }
+    },
+    "lastUpdated": {
+      "$date": {
+        "$numberLong": "1441993589000"
+      }
+    }
+  },
+  "num_mflix_comments": {
+    "$numberInt": "1"
+  }
+}
