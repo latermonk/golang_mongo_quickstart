@@ -15,6 +15,10 @@ https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
 ##  create a user for mongodb
 
 ```shell
+
+use admin  // ***  use admin database first
+
+
 db.createUser(
   {
     user: "myUserAdmin",
