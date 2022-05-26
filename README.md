@@ -53,6 +53,12 @@ db.movies.find( {"title" : "The Arrival of a Train"} );
 
 
 ###  import bson file
+
+```
+https://github.com/huynhsamha/quick-mongo-atlas-datasets
+```
+
+
 ```shell
 mongorestore -d sample_mflix   --dir  ./sample_mflix
 
